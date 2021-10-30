@@ -1,7 +1,9 @@
 import Head from "next/head";
+import { useColorModeValue } from "@chakra-ui/color-mode";
 import { Container, Box, Heading, Image, Text } from "@chakra-ui/react";
 import Block from "../components/block";
 import BioEntry from "../components/bio-entry";
+import Footer from "../components/footer";
 
 export default function Home({ children }) {
   return (
@@ -12,7 +14,11 @@ export default function Home({ children }) {
       </Head>
       <Container maxW={"container.sm"} pt={14}>
         <Block mb={10}>
-          <Box mb={3} align="center">
+          <Box
+            mb={3}
+            align="center"
+            color={useColorModeValue("#000000", "#ffffff")}
+          >
             <Image
               alt="profile pic"
               src="/media/dp.jpg"
@@ -70,6 +76,7 @@ export default function Home({ children }) {
           </Text>
         </Block>
       </Container>
+      <Footer />
     </div>
   );
 }

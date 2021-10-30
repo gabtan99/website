@@ -27,7 +27,6 @@ const Main = ({ children, router }) => {
 
       <Container maxW="container.md" pt={14}>
         {children}
-        <Footer />
       </Container>
     </Box>
   );

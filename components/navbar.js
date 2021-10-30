@@ -26,7 +26,7 @@ const Navbar = (props) => {
     >
       <Container p={2} maxW="container.md">
         <Flex align="center">
-          <Heading as="h1" size="xl" px={2} style={{ fontWeight: 800 }}>
+          <Heading as="h1" size="xl" px={2} ml={2} fontWeight={800}>
             <Link href="/">GT</Link>
           </Heading>
           <Spacer />
@@ -37,20 +37,10 @@ const Navbar = (props) => {
             alignItems="center"
             spacing="15px"
           >
-            <Heading
-              as="h5"
-              size="md"
-              variant="nav-link"
-              style={{ fontWeight: 600 }}
-            >
+            <Heading as="h5" size="md" variant="nav-link" fontWeight={600}>
               <Link href="/portfolio">portfolio</Link>
             </Heading>
-            <Heading
-              as="h5"
-              size="md"
-              variant="nav-link"
-              style={{ fontWeight: 600 }}
-            >
+            <Heading as="h5" size="md" variant="nav-link" fontWeight={600}>
               <a href="/resume.pdf">resume</a>
             </Heading>
             <ToggleButton />

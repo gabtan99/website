@@ -12,7 +12,7 @@ const styles = {
 const components = {
   Link: {
     baseStyle: (props) => ({
-      color: mode("#ffffff", "#030B16")(props),
+      color: mode("#ffffff", "#000000")(props),
       textDecoration: "underline",
       textUnderlineOffset: 6,
     }),
@@ -21,13 +21,13 @@ const components = {
     variants: (props) => ({
       "nav-link": {
         fontSize: 18,
-        color: mode("#ffffff", "#030B16")(props),
+        color: mode("#ffffff", "#000000")(props),
       },
     }),
   },
   Text: {
     baseStyle: (props) => ({
-      color: mode("#030B16", "#ffffff")(props),
+      color: mode("#000000", "#ffffff")(props),
       letterSpacing: 0.5,
     }),
   },
