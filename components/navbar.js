@@ -37,11 +37,21 @@ const Navbar = (props) => {
             alignItems="center"
             spacing="15px"
           >
-            <Heading as="h5" size="md" variant="nav-link">
+            <Heading
+              as="h5"
+              size="md"
+              variant="nav-link"
+              style={{ fontWeight: 600 }}
+            >
               <Link href="/portfolio">portfolio</Link>
             </Heading>
-            <Heading as="h5" size="md" variant="nav-link">
-              <Link href="/resume">resume</Link>
+            <Heading
+              as="h5"
+              size="md"
+              variant="nav-link"
+              style={{ fontWeight: 600 }}
+            >
+              <a href="/resume.pdf">resume</a>
             </Heading>
             <ToggleButton />
           </Stack>

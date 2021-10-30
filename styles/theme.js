@@ -25,6 +25,12 @@ const components = {
       },
     }),
   },
+  Text: {
+    baseStyle: (props) => ({
+      color: mode("#030B16", "#ffffff")(props),
+      letterSpacing: 0.5,
+    }),
+  },
 };
 
 const fonts = {
