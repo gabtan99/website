@@ -6,6 +6,7 @@ import {
   Flex,
   Spacer,
   Stack,
+  Header,
 } from "@chakra-ui/layout";
 import Link from "next/link";
 import React from "react";
@@ -17,6 +18,7 @@ const Navbar = (props) => {
       position="fixed"
       as="nav"
       w="100%"
+      pt={2}
       bg={useColorModeValue("#ffffff", "#030B16")}
       style={{ backdropFilter: "blur(10px)" }}
       zIndex={1}
@@ -24,19 +26,23 @@ const Navbar = (props) => {
     >
       <Container p={2} maxW="container.md">
         <Flex align="center">
-          <Heading as="h1" size="lg" px={2}>
+          <Heading as="h1" size="xl" px={2} style={{ fontWeight: 800 }}>
             <Link href="/">GT</Link>
           </Heading>
           <Spacer />
           <Stack
-            px={2}
+            pr={2}
             direction="row"
             width="auto"
             alignItems="center"
-            spacing="24px"
+            spacing="15px"
           >
-            <Link href="/portfolio">portfolio</Link>
-            <Link href="/resume">resume</Link>
+            <Heading as="h5" size="md" variant="nav-link">
+              <Link href="/portfolio">portfolio</Link>
+            </Heading>
+            <Heading as="h5" size="md" variant="nav-link">
+              <Link href="/resume">resume</Link>
+            </Heading>
             <ToggleButton />
           </Stack>
         </Flex>

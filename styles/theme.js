@@ -17,10 +17,19 @@ const components = {
       textUnderlineOffset: 6,
     }),
   },
+  Heading: {
+    variants: (props) => ({
+      "nav-link": {
+        fontSize: 18,
+        color: mode("#ffffff", "#030B16")(props),
+      },
+    }),
+  },
 };
 
 const fonts = {
   heading: "Raleway",
+  body: "Manrope",
 };
 
 const config = {
