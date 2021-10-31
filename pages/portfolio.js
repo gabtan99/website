@@ -5,6 +5,13 @@ import Footer from "../components/footer";
 import PortfolioItem from "../components/portfolio-item";
 
 import TransformerURL from "../public/media/transformer.png";
+import AirshipURL from "../public/media/airship.png";
+import CasURL from "../public/media/cas.png";
+import InterconURL from "../public/media/intercon.png";
+import MediacastURL from "../public/media/mediacast.png";
+import WebsiteURL from "../public/media/website.png";
+import MelsURL from "../public/media/mels.png";
+import Intercon from "./portfolio/intercon";
 
 const Portfolio = () => {
   return (
@@ -23,6 +30,14 @@ const Portfolio = () => {
         <SimpleGrid columns={[1, 1, 2]} spacingX={10}>
           <Block delay={0.2} mb={1}>
             <PortfolioItem
+              id="mediacast"
+              title="Mediacast Digital Group"
+              thumb={MediacastURL}
+            >
+              A next.js website for showcasing new NLP models
+            </PortfolioItem>
+
+            <PortfolioItem
               id="tagalogtransformer"
               title="Tagalog Transformer"
               thumb={TransformerURL}
@@ -30,25 +45,32 @@ const Portfolio = () => {
               A next.js website for showcasing new NLP models
             </PortfolioItem>
             <PortfolioItem
-              id="tagalogtransformer"
-              title="Tagalog Transformer"
-              thumb={TransformerURL}
+              id="airshipapp"
+              title="Airship Sender's App"
+              thumb={AirshipURL}
             >
               A next.js website for showcasing new NLP models
             </PortfolioItem>
           </Block>
           <Block delay={0.2}>
             <PortfolioItem
-              id="tagalogtransformer"
-              title="Tagalog Transformer"
-              thumb={TransformerURL}
+              id="melscollection"
+              title="Mel's Collection"
+              thumb={MelsURL}
             >
               A next.js website for showcasing new NLP models
             </PortfolioItem>
             <PortfolioItem
-              id="tagalogtransformer"
-              title="Tagalog Transformer"
-              thumb={TransformerURL}
+              id="intercon"
+              title="Intercon Regenerative Center"
+              thumb={InterconURL}
+            >
+              A next.js website for showcasing new NLP models
+            </PortfolioItem>
+            <PortfolioItem
+              id="website"
+              title="Personal Website"
+              thumb={WebsiteURL}
             >
               A next.js website for showcasing new NLP models
             </PortfolioItem>
@@ -63,9 +85,9 @@ const Portfolio = () => {
         <SimpleGrid columns={[1, 1, 2]} spacingX={10}>
           <Block delay={0.4} mb={1}>
             <PortfolioItem
-              id="tagalogtransformer"
-              title="Tagalog Transformer"
-              thumb={TransformerURL}
+              id="cardsagainststupidity"
+              title="Cards Against Stupidity"
+              thumb={CasURL}
             >
               A next.js website for showcasing new NLP models
             </PortfolioItem>

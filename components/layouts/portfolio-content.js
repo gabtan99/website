@@ -1,4 +1,5 @@
 import { ExternalLinkIcon } from "@chakra-ui/icons";
+import NextLink from "next/link";
 import Image from "next/image";
 import { Container, Link, Text, Tag, Box, Wrap } from "@chakra-ui/react";
 import Block from "../block";
@@ -7,9 +8,13 @@ const PortfolioContent = ({ title, children, image, stack, link }) => {
   return (
     <Container maxW="container.sm" pt={14}>
       <Block delay={0.1} mb={5}>
-        <Text fontSize="lg" fontWeight={300}>
-          Portfolio
-        </Text>
+        <NextLink href="/portfolio">
+          <Link>
+            <Text fontSize="lg" fontWeight={300} cursor="pointer">
+              Portfolio
+            </Text>
+          </Link>
+        </NextLink>
         <Text mb={2} fontSize="xl" fontWeight={600}>
           {title}
         </Text>

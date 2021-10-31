@@ -42,9 +42,12 @@ export default function Home({ children }) {
             About me
           </Text>
           <Text letterSpacing={0.5} fontWeight={300} lineHeight="tall">
-            I design and develop modern systems for clients using common web and
-            mobile technology. I specialize in frontend development with hopes
-            of finding more opportunities to refine my backend skillset.
+            I design and develop modern systems using common web and mobile
+            technology. I currently specialize in frontend development but I am
+            very much interested in learning backend frameworks. To fund my
+            interests, I like to do freelance work which usually involves a
+            combination of UI/UX Design, full-stack development, and business
+            analysis.
           </Text>
         </Block>
 
@@ -73,8 +76,9 @@ export default function Home({ children }) {
             Interests
           </Text>
           <Text letterSpacing={0.5} fontWeight={300} lineHeight="tall">
-            I design and develop modern systems for clients using common web and
-            mobile technology.
+            I spend most of my my free time playing video games, swimming,
+            exercising (or some other sport), playing the guitar and even more
+            video games :)
           </Text>
         </Block>
       </Container>
