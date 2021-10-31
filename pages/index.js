@@ -7,7 +7,7 @@ import Footer from "../components/footer";
 import TitleTypewriter from "../components/Title-typewriter";
 import NoSSR from "../components/no-ssr";
 
-export default function Home({ children }) {
+export default function Home() {
   return (
     <div>
       <Head>

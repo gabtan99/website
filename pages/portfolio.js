@@ -11,7 +11,6 @@ import InterconURL from "../public/media/intercon.png";
 import MediacastURL from "../public/media/mediacast.png";
 import WebsiteURL from "../public/media/website.png";
 import MelsURL from "../public/media/mels.png";
-import Intercon from "./portfolio/intercon";
 
 const Portfolio = () => {
   return (
