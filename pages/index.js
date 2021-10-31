@@ -58,14 +58,14 @@ export default function Home() {
           <Box>
             <BioEntry year="1999">Born in Manila, Philippines</BioEntry>
             <BioEntry year="2017">
-              Graduated from Xavier School (Elementary & High School)
+              Graduated High School from Xavier School San Juan
             </BioEntry>
             <BioEntry year="2020">
               Internship at BotBros AI Cloud Solutions
             </BioEntry>
             <BioEntry year="2021">
-              Graduated with a Bachelor’s degree in Computer Science from De La
-              Salle University Manila
+              Graduated university with a Bachelor’s degree in Computer Science
+              from De La Salle University Manila
             </BioEntry>
             <BioEntry year="Now">Freelancing</BioEntry>
           </Box>
@@ -77,8 +77,7 @@ export default function Home() {
           </Text>
           <Text letterSpacing={0.5} fontWeight={300} lineHeight="tall">
             I spend most of my my free time playing video games, swimming,
-            exercising (or some other sport), playing the guitar and even more
-            video games :)
+            exercising, playing the guitar and even more video games :)
           </Text>
         </Block>
       </Container>
