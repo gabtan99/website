@@ -8,7 +8,7 @@ const MelsCollection = () => {
   return (
     <div>
       <Head>
-        <title>Gab Tan - Mel's Collection</title>
+        <title>Gab Tan - Mel&apos;s Collection</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
 
@@ -26,11 +26,11 @@ const MelsCollection = () => {
           "Cloudinary",
         ]}
       >
-        A freelance job, Mel's Collection's website contains e-commerce
-        functionality such as browsing a catalog, adding to cart, uploading
-        payment slips, SMS / Email updates and more! The website was created to
-        streamline business transactions (due to complex customization options)
-        and is set to release by the end of 2021.
+        A freelance job, Mel&apos;s Collection&apos;s website contains
+        e-commerce functionality such as browsing a catalog, adding to cart,
+        uploading payment slips, SMS / Email updates and more! The website was
+        created to streamline business transactions (due to complex
+        customization options) and is set to release by the end of 2021.
       </PortfolioContent>
       <Footer />
     </div>

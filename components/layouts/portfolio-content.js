@@ -8,7 +8,7 @@ const PortfolioContent = ({ title, children, image, stack, link }) => {
   return (
     <Container maxW="container.sm" pt={14}>
       <Block delay={0.1} mb={5}>
-        <NextLink href="/portfolio">
+        <NextLink href="/portfolio" passHref>
           <Link>
             <Text fontSize="lg" fontWeight={300} cursor="pointer">
               Portfolio

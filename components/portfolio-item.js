@@ -6,7 +6,7 @@ import { Global } from "@emotion/react";
 const PortfolioItem = ({ children, id, title, thumb }) => {
   return (
     <Box w="100%" mb={8}>
-      <Link href={`/portfolio/${id}`}>
+      <Link href={`/portfolio/${id}`} passHref>
         <LinkBox cursor="pointer">
           <Image
             src={thumb}

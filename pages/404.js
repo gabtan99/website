@@ -10,7 +10,7 @@ const NotFound = () => {
             Page not found
           </Heading>
           <Text>Uh oh! The page you were looking cannot be found :(</Text>
-          <Link href="/">
+          <Link href="/" passHref>
             <Button my={6}>Return Home</Button>
           </Link>
         </Box>

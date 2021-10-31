@@ -10,17 +10,17 @@ const Airship = () => {
   return (
     <div>
       <Head>
-        <title>Gab Tan - Airship Sender's App</title>
+        <title>Gab Tan - Airship Booking App</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
 
       <PortfolioContent
-        title="Airship Sender's App"
+        title="Airship Booking App"
         image={AirshipURL}
         link="https://play.google.com/store/apps/details?id=com.sendersapp"
         stack={["React Native", "Redux"]}
       >
-        The sender's app for Airship Logistic Solutions (a product of my
+        The booking app for Airship Logistic Solutions (a product of my
         internship company). My task was to translate the wireframe into
         production-ready code. I also conducted interviews and usability testing
         with the eventual users of the app. Checkout{" "}

@@ -45,10 +45,10 @@ const Portfolio = () => {
             </PortfolioItem>
             <PortfolioItem
               id="airshipapp"
-              title="Airship Sender's App"
+              title="Airship Booking App"
               thumb={AirshipURL}
             >
-              Sender's App for Airship built with React Native (Internship @
+              Booking App for Airship built with React Native (Internship @
               BotBros AI)
             </PortfolioItem>
           </Block>

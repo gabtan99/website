@@ -21,7 +21,7 @@ const Website = () => {
         My portfolio website. I designed the wireframe in Figma (as you can see
         in the thumbnail) and developed it using my favorite React framework,
         Next.js. This was also my first time using Chakra UI for components and
-        easy theming. The website is heavily inspired by YouTuber "devaslife".
+        easy theming. The website is heavily inspired by YouTuber devaslife.
       </PortfolioContent>
       <Footer />
     </div>
