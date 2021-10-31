@@ -35,12 +35,12 @@ const Navbar = (props) => {
             direction="row"
             width="auto"
             alignItems="center"
-            spacing="15px"
+            spacing="18px"
           >
-            <Heading as="h5" size="md" variant="nav-link" fontWeight={600}>
+            <Heading as="h5" size="md" variant="nav-link" fontWeight={500}>
               <Link href="/portfolio">portfolio</Link>
             </Heading>
-            <Heading as="h5" size="md" variant="nav-link" fontWeight={600}>
+            <Heading as="h5" size="md" variant="nav-link" fontWeight={500}>
               <a href="/resume.pdf">resume</a>
             </Heading>
             <ToggleButton />

@@ -7,7 +7,8 @@ const ToggleButton = () => {
   return (
     <IconButton
       aria-label="Toggle theme"
-      colorScheme={useColorModeValue("blue", "orange")}
+      variant="ghost"
+      colorScheme={useColorModeValue("blue", "whites")}
       icon={useColorModeValue(<MoonIcon />, <SunIcon />)}
       onClick={toggleColorMode}
     />

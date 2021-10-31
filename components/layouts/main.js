@@ -22,9 +22,7 @@ const Main = ({ children, router }) => {
         <meta property="og:image" content="/card.png" /> */}
         <title>Gab Tan - Home</title>
       </Head>
-
       <NavBar path={router.asPath} />
-
       <Container maxW="container.md" pt={14}>
         {children}
       </Container>

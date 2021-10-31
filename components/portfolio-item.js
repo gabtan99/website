@@ -3,16 +3,28 @@ import Image from "next/image";
 import { Box, Text, LinkBox, LinkOverlay } from "@chakra-ui/react";
 import { Global } from "@emotion/react";
 
-const PortfolioItem = ({ children, href, title, thumb }) => {
+const PortfolioItem = ({ children, id, title, thumb }) => {
   return (
-    <Box w="100%" align="center">
-      <LinkBox cursor="pointer">
-        <Image src={thumb} alt={title} placeholder="blur" loading="lazy" />
-        <LinkOverlay href={href} target="_blank">
-          <Text> {title}</Text>
-        </LinkOverlay>
-        <Text fontSize={14}> {children}</Text>
-      </LinkBox>
+    <Box w="100%" mb={8}>
+      <Link href={`/portfolio/${id}`}>
+        <LinkBox cursor="pointer">
+          <Image
+            src={thumb}
+            alt={title}
+            placeholder="blur"
+            loading="lazy"
+            className="port-item"
+          />
+          <LinkOverlay href={`/portfolio/${id}`} target="_blank">
+            <Text fontSize={18} fontWeight="bold" mt={2} mb={1}>
+              {title}
+            </Text>
+          </LinkOverlay>
+          <Text fontSize={14} fontWeight="light">
+            {children}
+          </Text>
+        </LinkBox>
+      </Link>
     </Box>
   );
 };

@@ -10,13 +10,6 @@ const styles = {
 };
 
 const components = {
-  Link: {
-    baseStyle: (props) => ({
-      color: mode("#ffffff", "#000000")(props),
-      textDecoration: "underline",
-      textUnderlineOffset: 6,
-    }),
-  },
   Heading: {
     variants: (props) => ({
       "nav-link": {
@@ -40,12 +33,28 @@ const fonts = {
 
 const config = {
   initialColorMode: "dark",
-  useSystemColorMode: false,
+  useSystemColorMode: true,
+};
+
+const colors = {
+  whites: {
+    50: "#FFFFFF",
+    100: "#FFFFFF",
+    200: "#FFFFFF",
+    300: "#FFFFFF",
+    400: "#FFFFFF",
+    500: "#FFFFFF",
+    600: "#FFFFFF",
+    700: "#FFFFFF",
+    800: "#FFFFFF",
+    900: "#FFFFFF",
+  },
 };
 
 const theme = extendTheme({
   config,
   styles,
+  colors,
   components,
   fonts,
 });

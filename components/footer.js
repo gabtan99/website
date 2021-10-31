@@ -6,7 +6,7 @@ import { useColorModeValue } from "@chakra-ui/color-mode";
 
 const Footer = () => {
   return (
-    <Block delay={1} my={7}>
+    <Block delay={0.7} my={7}>
       <Container maxW="container.sm">
         <Text mb={2} fontSize="lg" fontWeight={600}>
           Find me
