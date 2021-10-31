@@ -1,4 +1,4 @@
-import { Box, Container, Heading, Button } from "@chakra-ui/react";
+import { Box, Container, Heading, Button, Text } from "@chakra-ui/react";
 import Link from "next/link";
 
 const NotFound = () => {
@@ -9,7 +9,7 @@ const NotFound = () => {
           <Heading as="h2" my={6}>
             Page not found
           </Heading>
-          Uh oh! The page you were looking cannot be found :(
+          <Text>Uh oh! The page you were looking cannot be found :(</Text>
           <Link href="/">
             <Button my={6}>Return Home</Button>
           </Link>

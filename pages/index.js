@@ -4,6 +4,7 @@ import { Container, Box, Heading, Image, Text } from "@chakra-ui/react";
 import Block from "../components/block";
 import BioEntry from "../components/bio-entry";
 import Footer from "../components/footer";
+import TitleTypewriter from "../components/Title-typewriter";
 
 export default function Home({ children }) {
   return (
@@ -29,9 +30,7 @@ export default function Home({ children }) {
             <Heading as="h1" size="3xl" fontWeight={500}>
               Hi, I&apos;m <b> Gab! </b>
             </Heading>
-            <Heading as="h2" size="lg" my={2} fontWeight={600}>
-              Software Developer
-            </Heading>
+            <TitleTypewriter />
           </Box>
         </Block>
 
