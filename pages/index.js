@@ -29,7 +29,7 @@ export default function Home() {
               my={5}
             />
             <Heading as="h1" size="3xl" fontWeight={500}>
-              Hi, I&apos;m <b> Gab! </b>
+              Hi, I&apos;m <b>Gab</b>!
             </Heading>
             <NoSSR>
               <TitleTypewriter />
@@ -58,14 +58,14 @@ export default function Home() {
           <Box>
             <BioEntry year="1999">Born in Manila, Philippines</BioEntry>
             <BioEntry year="2017">
-              Graduated High School from Xavier School San Juan
+              Graduated high school from Xavier School San Juan
             </BioEntry>
             <BioEntry year="2020">
               Internship at BotBros AI Cloud Solutions
             </BioEntry>
             <BioEntry year="2021">
-              Graduated university with a Bachelor’s degree in Computer Science
-              from De La Salle University Manila
+              Accomplished my undergraduate studies with a Bachelor’s degree in
+              Computer Science from De La Salle University Manila
             </BioEntry>
             <BioEntry year="Now">Freelancing</BioEntry>
           </Box>
@@ -77,7 +77,7 @@ export default function Home() {
           </Text>
           <Text letterSpacing={0.5} fontWeight={300} lineHeight="tall">
             I spend most of my my free time playing video games, swimming,
-            exercising, playing the guitar and even more video games :)
+            exercising, and playing the guitar :)
           </Text>
         </Block>
       </Container>
