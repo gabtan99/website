@@ -16,13 +16,22 @@ const TagalogTransformer = () => {
         title="Tagalog Transformer"
         image={TransformerURL}
         link="https://www.tagalogtransformer.me"
-        stack={["Next.js", "React"]}
+        stack={[
+          "Next.js",
+          "Tailwind",
+          "Flask",
+          "Google Cloud Platform",
+          "Python",
+        ]}
       >
-        A video work generated with deep learning, imitating famous four
-        painters: Van Gogh, Edvard Munch, Kiyoshi Yamashita, and Katsushika
-        Hokusai. A video work generated with deep learning, imitating famous
-        four painters: Van Gogh, Edvard Munch, Kiyoshi Yamashita, and Katsushika
-        Hokusai.
+        A web application to showcase newly-produced NLP models in Tagalog /
+        Filipino. The models are an output of my undergraduate research which
+        involved producing the first conversational response generator in
+        Filipino (which means it can remember previous n responses).
+        Specifically, we focused on creating the first Filipino conversational
+        dataset and using RoBERTa-based data augmentation to multiply the amount
+        of data for training. The web app communicates with our model through a
+        REST API.
       </PortfolioContent>
       <Footer />
     </div>

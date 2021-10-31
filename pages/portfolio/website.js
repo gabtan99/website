@@ -15,14 +15,13 @@ const Website = () => {
       <PortfolioContent
         title="Personal Website"
         image={WebsiteURL}
-        link="https://www.tagalogtransformer.me"
-        stack={["Next.js", "React"]}
+        link="https://gab.vercel.app"
+        stack={["Next.js", "Chakra UI", "Framer Motion"]}
       >
-        A video work generated with deep learning, imitating famous four
-        painters: Van Gogh, Edvard Munch, Kiyoshi Yamashita, and Katsushika
-        Hokusai. A video work generated with deep learning, imitating famous
-        four painters: Van Gogh, Edvard Munch, Kiyoshi Yamashita, and Katsushika
-        Hokusai.
+        My portfolio website. I designed the wireframe in Figma (as you can see
+        in the thumbnail) and developed it using my favorite React framework,
+        Next.js. This was also my first time using Chakra UI for components and
+        easy theming. The website is heavily inspired by YouTuber "devaslife".
       </PortfolioContent>
       <Footer />
     </div>

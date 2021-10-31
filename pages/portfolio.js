@@ -33,7 +33,7 @@ const Portfolio = () => {
               title="Mediacast Digital Group"
               thumb={MediacastURL}
             >
-              A next.js website for showcasing new NLP models
+              Wordpress-based Next.js site for company catalogue
             </PortfolioItem>
 
             <PortfolioItem
@@ -41,14 +41,15 @@ const Portfolio = () => {
               title="Tagalog Transformer"
               thumb={TransformerURL}
             >
-              A next.js website for showcasing new NLP models
+              React app to showcase a new Tagalog conversational model.
             </PortfolioItem>
             <PortfolioItem
               id="airshipapp"
               title="Airship Sender's App"
               thumb={AirshipURL}
             >
-              A next.js website for showcasing new NLP models
+              Sender's App for Airship built with React Native (Internship @
+              BotBros AI)
             </PortfolioItem>
           </Block>
           <Block delay={0.2}>
@@ -57,21 +58,21 @@ const Portfolio = () => {
               title="Mel's Collection"
               thumb={MelsURL}
             >
-              A next.js website for showcasing new NLP models
+              E-commerce website with SMS and Email notifications
             </PortfolioItem>
             <PortfolioItem
               id="intercon"
               title="Intercon Regenerative Center"
               thumb={InterconURL}
             >
-              A next.js website for showcasing new NLP models
+              A website for Blog / Service Catalogue built with Vue.js
             </PortfolioItem>
             <PortfolioItem
               id="website"
               title="Personal Website"
               thumb={WebsiteURL}
             >
-              A next.js website for showcasing new NLP models
+              The website you are viewing right now! Built with Next.js
             </PortfolioItem>
           </Block>
         </SimpleGrid>
@@ -88,7 +89,7 @@ const Portfolio = () => {
               title="Cards Against Stupidity"
               thumb={CasURL}
             >
-              A next.js website for showcasing new NLP models
+              Flashcards for studying! A remake of my 2nd year college project.
             </PortfolioItem>
           </Block>
         </SimpleGrid>
