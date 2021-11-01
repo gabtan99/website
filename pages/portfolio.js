@@ -22,7 +22,7 @@ const Portfolio = () => {
       <Container maxW="container.sm" pt={14}>
         <Block delay={0.1} mb={7}>
           <Text mb={2} fontSize="lg" fontWeight={600}>
-            Portfolio
+            My Portfolio
           </Text>
         </Block>
 
