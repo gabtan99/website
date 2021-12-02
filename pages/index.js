@@ -42,12 +42,11 @@ export default function Home() {
             About me
           </Text>
           <Text letterSpacing={0.5} fontWeight={300} lineHeight="tall">
-            I design and develop modern systems using common web and mobile
-            technology. I currently specialize in frontend development but I am
-            very much interested in learning backend frameworks. To fund my
-            interests, I like to do freelance work which usually involves a
-            combination of UI/UX Design, full-stack development, and business
-            analysis.
+            I like to design and develop modern systems using common web and
+            mobile technology. I currently specialize in frontend development
+            but I am very much interested in learning backend frameworks. To
+            fund my interests, I do freelance work which usually involves a
+            combination of UI/UX Design and full-stack development.
           </Text>
         </Block>
 
@@ -58,7 +57,7 @@ export default function Home() {
           <Box>
             <BioEntry year="1999">Born in Manila, Philippines</BioEntry>
             <BioEntry year="2017">
-              Graduated from Xavier School San Juan
+              Graduated from Xavier School San Juan High School
             </BioEntry>
             <BioEntry year="2020">
               Internship at BotBros AI Cloud Solutions
@@ -67,7 +66,7 @@ export default function Home() {
               Graduated from De La Salle University Manila with a Bachelor’s
               degree in Computer Science
             </BioEntry>
-            <BioEntry year="Now">Freelancing</BioEntry>
+            <BioEntry year="Now">Freelancing and Part-time job</BioEntry>
           </Box>
         </Block>
 
@@ -77,8 +76,8 @@ export default function Home() {
           </Text>
           <Text letterSpacing={0.5} fontWeight={300} lineHeight="tall">
             I spend most of my my free time either playing video games,
-            swimming, exercising, playing the guitar or managing our e-commerce
-            business with my dad.
+            swimming, exercising, hanging out with my friends, playing the
+            guitar or managing an e-commerce business with my dad.
           </Text>
         </Block>
       </Container>

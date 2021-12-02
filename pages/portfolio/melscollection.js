@@ -29,8 +29,8 @@ const MelsCollection = () => {
         A freelance job, Mel&apos;s Collection&apos;s website contains
         e-commerce functionality such as browsing a catalog, adding to cart,
         uploading payment slips, SMS / Email updates and more! The website was
-        created to streamline business transactions (due to complex
-        customization options) and is set to release by the end of 2021.
+        created to streamline business transactions with complex product
+        customization features.
       </PortfolioContent>
       <Footer />
     </div>

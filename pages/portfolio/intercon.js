@@ -30,9 +30,11 @@ const Intercon = () => {
         A dynamic web page for Intercon Regenerative Center (Manila,
         Philippines). The website showcases their collection of services for a
         healthy lifestyle and also a blog! Both the development and design of
-        the website was made solely by myself and my group of friends. The
-        production website is taken down as requested, so the link currently
-        directs to the dev branch.
+        the website was made solely by myself and my group of friends.
+        <i>
+          The production website is taken down as requested, so the link
+          currently directs to the dev branch.
+        </i>
       </PortfolioContent>
       <Footer />
     </div>

@@ -24,11 +24,11 @@ const Mediacast = () => {
           "Mailchimp",
         ]}
       >
-        Work for Mediacast Digital Group Inc. as a web developer (working with
-        designer and marketing) for their website revamp project. The project
-        involves migrating their current Wordpress into a headless CMS. New
-        custom post types were added to restructure their content and serverless
-        pre-rendering via Frontity to optimize website loading time.
+        Work for Mediacast Digital Group Inc. as a web developer for their
+        website revamp project. The project involves migrating their current
+        Wordpress into a headless CMS. New custom post types were added to
+        restructure their content and serverless pre-rendering via Frontity to
+        optimize website loading time and SEO.
       </PortfolioContent>
       <Footer />
     </div>

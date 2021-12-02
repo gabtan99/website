@@ -11,7 +11,7 @@ const TitleTypewriter = () => {
             .typeString("Programmer")
             .pauseFor(1000)
             .deleteAll()
-            .typeString("UI Designer")
+            .typeString("UI/UX Designer")
             .pauseFor(1000)
             .deleteAll()
             .typeString("Software Developer")
