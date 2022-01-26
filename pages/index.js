@@ -66,7 +66,10 @@ export default function Home() {
               Graduated from De La Salle University Manila with a Bachelor’s
               degree in Computer Science
             </BioEntry>
-            <BioEntry year="Now">Freelancing and Part-time job</BioEntry>
+            <BioEntry year="2021">
+              Freelancing and Part-time job at Mediacast Digital Group Inc.
+            </BioEntry>
+            <BioEntry year="Now">Lives in Surrey, British Columbia</BioEntry>
           </Box>
         </Block>
 
