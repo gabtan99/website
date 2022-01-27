@@ -6,7 +6,7 @@ const BioEntry = ({ year = "N/A", children }) => {
       <Text fontWeight={600} minWidth={55}>
         {year}
       </Text>
-      <Text fontWeight={300}>{children}</Text>
+      <Text fontWeight={400}>{children}</Text>
     </Box>
   );
 };

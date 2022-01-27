@@ -35,13 +35,13 @@ const Navbar = (props) => {
             direction="row"
             width="auto"
             alignItems="center"
-            spacing="18px"
+            spacing="20px"
           >
-            <Heading as="h5" size="md" variant="nav-link" fontWeight={500}>
-              <Link href="/portfolio">portfolio</Link>
+            <Heading as="h5" size="md" variant="nav-link" fontWeight={600}>
+              <Link href="/portfolio">Portfolio</Link>
             </Heading>
-            <Heading as="h5" size="md" variant="nav-link" fontWeight={500}>
-              <a href="/resume.pdf">resume</a>
+            <Heading as="h5" size="md" variant="nav-link" fontWeight={600}>
+              <a href="/resume.pdf">Resume</a>
             </Heading>
             <ToggleButton />
           </Stack>

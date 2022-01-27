@@ -20,7 +20,7 @@ const PortfolioItem = ({ children, id, title, thumb }) => {
               {title}
             </Text>
           </LinkOverlay>
-          <Text fontSize={14} fontWeight="light">
+          <Text fontSize={16} fontWeight="400">
             {children}
           </Text>
         </LinkBox>

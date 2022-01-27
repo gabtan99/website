@@ -10,7 +10,7 @@ const PortfolioContent = ({ title, children, image, stack, link }) => {
       <Block delay={0.1} mb={5}>
         <NextLink href="/portfolio" passHref>
           <Link>
-            <Text fontSize="lg" fontWeight={300} cursor="pointer">
+            <Text fontSize="lg" fontWeight={400} cursor="pointer">
               Portfolio
             </Text>
           </Link>
@@ -31,7 +31,7 @@ const PortfolioContent = ({ title, children, image, stack, link }) => {
       <Block delay={0.3} mb={5}>
         <Text
           fontSize="md"
-          fontWeight={300}
+          fontWeight={400}
           letterSpacing={0.5}
           lineHeight="tall"
         >

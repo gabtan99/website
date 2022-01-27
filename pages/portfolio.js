@@ -21,7 +21,7 @@ const Portfolio = () => {
       </Head>
       <Container maxW="container.sm" pt={14}>
         <Block delay={0.1} mb={7}>
-          <Text mb={2} fontSize="lg" fontWeight={600}>
+          <Text mb={2} fontSize="2xl" fontWeight={600}>
             My Portfolio
           </Text>
         </Block>
@@ -54,13 +54,6 @@ const Portfolio = () => {
           </Block>
           <Block delay={0.2}>
             <PortfolioItem
-              id="melscollection"
-              title="Mel's Collection"
-              thumb={MelsURL}
-            >
-              E-commerce website with SMS and Email notifications
-            </PortfolioItem>
-            <PortfolioItem
               id="intercon"
               title="Intercon Regenerative Center"
               thumb={InterconURL}
@@ -90,6 +83,15 @@ const Portfolio = () => {
               thumb={CasURL}
             >
               Flashcards for studying! A remake of my 2nd year college project.
+            </PortfolioItem>
+          </Block>
+          <Block delay={0.4} mb={1}>
+            <PortfolioItem
+              id="melscollection"
+              title="Mel's Collection"
+              thumb={MelsURL}
+            >
+              E-commerce website with SMS and Email notifications
             </PortfolioItem>
           </Block>
         </SimpleGrid>

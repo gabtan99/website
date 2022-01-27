@@ -38,20 +38,20 @@ export default function Home() {
         </Block>
 
         <Block delay={0.5} mb={7}>
-          <Text mb={2} fontSize="lg" fontWeight={600}>
+          <Text mb={3} fontSize="xl" fontWeight={600}>
             About me
           </Text>
-          <Text letterSpacing={0.5} fontWeight={300} lineHeight="tall">
+          <Text letterSpacing={0.5} fontWeight={400} lineHeight="tall">
             I like to design and develop modern systems using common web and
-            mobile technology. I currently specialize in frontend development
-            but I am very much interested in learning backend frameworks. To
-            fund my interests, I do freelance work which usually involves a
-            combination of UI/UX Design and full-stack development.
+            mobile technology. I specialize in frontend development but I am
+            very much interested in learning backend frameworks. To fund my
+            interests, I do freelance work which usually involves a combination
+            of UI/UX Design, full-stack development, and QA testing.
           </Text>
         </Block>
 
         <Block delay={0.6} mb={7}>
-          <Text mb={2} fontSize="lg" fontWeight={600}>
+          <Text mb={3} fontSize="xl" fontWeight={600}>
             Bio
           </Text>
           <Box>
@@ -67,20 +67,20 @@ export default function Home() {
               degree in Computer Science
             </BioEntry>
             <BioEntry year="2021">
-              Freelancing and Part-time job at Mediacast Digital Group Inc.
+              Freelancer and Part-time developer at Mediacast Digital Group
             </BioEntry>
             <BioEntry year="Now">Lives in Surrey, British Columbia</BioEntry>
           </Box>
         </Block>
 
         <Block delay={0.7} mb={7}>
-          <Text mb={2} fontSize="lg" fontWeight={600}>
+          <Text mb={3} fontSize="xl" fontWeight={600}>
             Interests
           </Text>
-          <Text letterSpacing={0.5} fontWeight={300} lineHeight="tall">
+          <Text letterSpacing={0.5} fontWeight={400} lineHeight="tall">
             I spend most of my my free time either playing video games,
-            swimming, exercising, hanging out with my friends, playing the
-            guitar or managing an e-commerce business with my dad.
+            swimming, exercising, playing the guitar or managing an e-commerce
+            business with my father.
           </Text>
         </Block>
       </Container>

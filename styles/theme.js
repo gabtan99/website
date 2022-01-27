@@ -22,6 +22,7 @@ const components = {
     baseStyle: (props) => ({
       color: mode("#000000", "#ffffff")(props),
       letterSpacing: 0.5,
+      fontSize: 18,
     }),
   },
 };
