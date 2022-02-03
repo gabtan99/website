@@ -33,7 +33,7 @@ const fonts = {
 };
 
 const config = {
-  initialColorMode: "dark",
+  initialColorMode: "white",
   useSystemColorMode: false,
 };
 
