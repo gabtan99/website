@@ -31,7 +31,7 @@ export default function Home() {
               color="accent"
               fontFamily="Manrope"
             >
-              Hi! My name is
+              Hi! I&apos;m
             </Heading>
             <Heading fontSize="big" fontWeight={900}>
               Gabriel Tan
@@ -124,7 +124,7 @@ export default function Home() {
               About me
             </Text>
             <Text fontWeight={400}>
-              Hi! I am Gabriel Tan. I am a fresh graduate of{" "}
+              Hi! My name is Gabriel Tan. I am a fresh graduate of{" "}
               <Box as="span" color="textPrimary">
                 Computer Science
               </Box>{" "}
@@ -134,11 +134,11 @@ export default function Home() {
               </Box>
               <br /> <br /> During my studies, I was fortunate enough to take an
               internship at a startup company which sparked my passion for
-              software development. Since then, I’ve been constantly updating
-              myself with newer technologies to enhance my craft. <br /> <br />{" "}
-              To fund my interests in video games, I also like to do freelance
-              work which usually involves a combination of UI/UX Design,
-              full-stack development, and QA testing.
+              software development. Since then, I&apos;ve been constantly
+              updating myself with newer technologies to enhance my craft.{" "}
+              <br /> <br /> To fund my interests in video games, I also like to
+              do freelance work which usually involves a combination of UI/UX
+              Design, full-stack development, and QA testing.
             </Text>
             <Link href="portfolio">
               <Text fontWeight={600} color="accent" mt={7} flex={1}>
@@ -173,7 +173,7 @@ export default function Home() {
             Get in Touch
           </Heading>
           <Text maxW={320} fontSize={18}>
-            I'm currently looking for opportunities for a{" "}
+            I&apos;m currently looking for opportunities for a{" "}
             <Box as="span" color="textPrimary">
               Web Developer
             </Box>{" "}
