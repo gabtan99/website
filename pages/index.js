@@ -31,9 +31,9 @@ export default function Home() {
             <Heading as="h1" size="3xl" fontWeight={500}>
               Hi, I&apos;m <b>Gab</b>!
             </Heading>
-            <NoSSR>
+            {/* <NoSSR>
               <TitleTypewriter />
-            </NoSSR>
+            </NoSSR> */}
           </Box>
         </Block>
 
