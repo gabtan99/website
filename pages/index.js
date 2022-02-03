@@ -5,7 +5,6 @@ import Block from "../components/block";
 import BioEntry from "../components/bio-entry";
 import Footer from "../components/footer";
 import TitleTypewriter from "../components/Title-typewriter";
-import NoSSR from "../components/no-ssr";
 
 export default function Home() {
   return (
@@ -31,9 +30,8 @@ export default function Home() {
             <Heading as="h1" size="3xl" fontWeight={500}>
               Hi, I&apos;m <b>Gab</b>!
             </Heading>
-            {/* <NoSSR>
-              <TitleTypewriter />
-            </NoSSR> */}
+
+            <TitleTypewriter />
           </Box>
         </Block>
 
