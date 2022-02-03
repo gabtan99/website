@@ -1,5 +1,11 @@
 import Head from "next/head";
-import { Container, SimpleGrid, Divider, Text } from "@chakra-ui/react";
+import {
+  Container,
+  SimpleGrid,
+  Divider,
+  Text,
+  Heading,
+} from "@chakra-ui/react";
 import Block from "../components/block";
 import Footer from "../components/footer";
 import PortfolioItem from "../components/portfolio-item";
@@ -19,11 +25,19 @@ const Portfolio = () => {
         <title>Gab Tan - Portfolio</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
-      <Container maxW="container.sm" pt={14}>
+      <Container maxW="container.lg" mt={{ base: "5vh", md: "8vh" }}>
         <Block delay={0.1} mb={7}>
-          <Text mb={2} fontSize="2xl" fontWeight={600}>
-            My Portfolio
-          </Text>
+          <Heading
+            fontSize="18"
+            color="accent"
+            fontWeight={600}
+            fontFamily="Manrope"
+          >
+            Welcome to my
+          </Heading>
+          <Heading fontSize="48" color="textPrimary">
+            Portfolio
+          </Heading>
         </Block>
 
         <SimpleGrid columns={[1, 1, 2]} spacingX={10}>
@@ -32,67 +46,56 @@ const Portfolio = () => {
               id="mediacast"
               title="Mediacast Digital Group"
               thumb={MediacastURL}
-            >
-              Wordpress-based Next.js site for company catalogue
-            </PortfolioItem>
+            ></PortfolioItem>
 
             <PortfolioItem
               id="tagalogtransformer"
               title="Tagalog Transformer"
               thumb={TransformerURL}
-            >
-              React app to showcase a new Tagalog conversational model.
-            </PortfolioItem>
+            ></PortfolioItem>
             <PortfolioItem
               id="airshipapp"
               title="Airship Booking App"
               thumb={AirshipURL}
-            >
-              Booking App for Airship built with React Native (Internship @
-              BotBros AI)
-            </PortfolioItem>
+            ></PortfolioItem>
           </Block>
           <Block delay={0.2}>
+            <PortfolioItem
+              id="cardsagainststupidity"
+              title="Cards Against Stupidity"
+              thumb={CasURL}
+            ></PortfolioItem>
             <PortfolioItem
               id="intercon"
               title="Intercon Regenerative Center"
               thumb={InterconURL}
-            >
-              A website for Blog / Service Catalogue built with Vue.js
-            </PortfolioItem>
+            ></PortfolioItem>
             <PortfolioItem
               id="website"
               title="Personal Website"
               thumb={WebsiteURL}
-            >
-              The website you are viewing right now! Built with Next.js
-            </PortfolioItem>
+            ></PortfolioItem>
           </Block>
         </SimpleGrid>
 
         <Block delay={0.3} mb={7} mt={10}>
-          <Text mb={2} fontSize="lg" fontWeight={600}>
-            To be finished
+          <Text
+            mb={2}
+            fontSize="24"
+            color="textPrimary"
+            fontFamily="Manrope"
+            fontWeight={700}
+          >
+            Works in Progress
           </Text>
         </Block>
         <SimpleGrid columns={[1, 1, 2]} spacingX={10}>
           <Block delay={0.4} mb={1}>
             <PortfolioItem
-              id="cardsagainststupidity"
-              title="Cards Against Stupidity"
-              thumb={CasURL}
-            >
-              Flashcards for studying! A remake of my 2nd year college project.
-            </PortfolioItem>
-          </Block>
-          <Block delay={0.4} mb={1}>
-            <PortfolioItem
               id="melscollection"
               title="Mel's Collection"
               thumb={MelsURL}
-            >
-              E-commerce website with SMS and Email notifications
-            </PortfolioItem>
+            ></PortfolioItem>
           </Block>
         </SimpleGrid>
       </Container>

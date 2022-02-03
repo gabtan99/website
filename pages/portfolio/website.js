@@ -18,11 +18,9 @@ const Website = () => {
         link="https://gab.vercel.app"
         stack={["Next.js", "Chakra UI", "Framer Motion"]}
       >
-        My portfolio website. I designed the wireframe in Figma (as you can see
-        in the thumbnail) and developed it using my favorite React framework,
-        Next.js. This was also my first time using Chakra UI for components and
-        easy theming. The website is heavily inspired by YouTuber{" "}
-        <i> devaslife. </i>
+        My portfolio website. I designed the wireframe in Figma and developed it
+        using my favorite React framework, Next.js. This was also my first time
+        using Chakra UI for components and easy theming.
       </PortfolioContent>
       <Footer />
     </div>

@@ -6,16 +6,21 @@ import Block from "../block";
 
 const PortfolioContent = ({ title, children, image, stack, link }) => {
   return (
-    <Container maxW="container.sm" pt={14}>
+    <Container maxW="container.lg" pt={14}>
       <Block delay={0.1} mb={5}>
         <NextLink href="/portfolio" passHref>
           <Link>
-            <Text fontSize="lg" fontWeight={400} cursor="pointer">
-              Portfolio
+            <Text
+              fontSize="18"
+              fontWeight={400}
+              color="textPrimary"
+              cursor="pointer"
+            >
+              ← Portfolio
             </Text>
           </Link>
         </NextLink>
-        <Text mb={2} fontSize="xl" fontWeight={600}>
+        <Text mb={2} fontSize="medium" fontWeight={600} color="textPrimary">
           {title}
         </Text>
       </Block>
@@ -41,7 +46,7 @@ const PortfolioContent = ({ title, children, image, stack, link }) => {
 
       <Block delay={0.4} mb={10}>
         <Box width="100%" display="flex" my={2}>
-          <Text fontSize="sm" minW="60px">
+          <Text fontSize="14" minW="60px">
             Stack
           </Text>
           <Wrap>
@@ -51,7 +56,7 @@ const PortfolioContent = ({ title, children, image, stack, link }) => {
           </Wrap>
         </Box>
         <Box width="100%" display="flex">
-          <Text fontSize="sm" minW="60px">
+          <Text fontSize="14" minW="60px">
             Link
           </Text>
 

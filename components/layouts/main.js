@@ -15,7 +15,7 @@ const Main = ({ children, router }) => {
         <meta property="og:image" content="/media/dp.png" />
       </Head>
       <NavBar path={router.asPath} />
-      <Container maxW="container.md" pt={14}>
+      <Container maxW="container.lg" pt={14}>
         {children}
       </Container>
     </Box>

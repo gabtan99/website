@@ -18,32 +18,46 @@ const Navbar = (props) => {
       position="fixed"
       as="nav"
       w="100%"
-      pt={2}
-      bg={useColorModeValue("#ffffff", "#030B16")}
-      style={{ backdropFilter: "blur(10px)" }}
+      py={3}
+      bg={useColorModeValue("#ffffff", "#000000")}
       zIndex={1}
+      borderBottom="1px"
+      borderBottomColor="borderColor"
       {...props}
     >
-      <Container p={2} maxW="container.md">
+      <Container p={2} maxW="container.xl">
         <Flex align="center">
-          <Heading as="h1" size="xl" px={2} ml={2} fontWeight={800}>
-            <Link href="/">GT</Link>
-          </Heading>
+          <Link href="/">
+            <Heading
+              fontSize="24"
+              px={2}
+              ml={2}
+              fontWeight={900}
+              cursor="pointer"
+            >
+              <Box>
+                G
+                <Box as="span" color="accent">
+                  T
+                </Box>
+              </Box>
+            </Heading>
+          </Link>
           <Spacer />
           <Stack
-            pr={2}
+            pr={4}
             direction="row"
             width="auto"
             alignItems="center"
-            spacing="20px"
+            spacing="30px"
           >
-            <Heading as="h5" size="md" variant="nav-link" fontWeight={600}>
+            <Heading fontSize="18">
               <Link href="/portfolio">Portfolio</Link>
             </Heading>
-            <Heading as="h5" size="md" variant="nav-link" fontWeight={600}>
-              <a href="/resume.pdf">Resume</a>
+            <Heading fontSize="18">
+              <Link href="/resume.pdf">Resume</Link>
             </Heading>
-            <ToggleButton />
+            {/* <ToggleButton /> */}
           </Stack>
         </Flex>
       </Container>

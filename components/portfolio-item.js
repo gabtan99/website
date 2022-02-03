@@ -16,7 +16,13 @@ const PortfolioItem = ({ children, id, title, thumb }) => {
             className="port-item"
           />
           <LinkOverlay href={`/portfolio/${id}`} target="_blank">
-            <Text fontSize={18} fontWeight="bold" mt={2} mb={1}>
+            <Text
+              color="textPrimary"
+              fontSize={18}
+              fontWeight={500}
+              mt={2}
+              mb={1}
+            >
               {title}
             </Text>
           </LinkOverlay>

@@ -4,7 +4,7 @@ import Link from "next/link";
 const NotFound = () => {
   return (
     <div>
-      <Container maxW="container.sm" pt={14}>
+      <Container maxW="container.lg" pt={14}>
         <Box align="center" my={6}>
           <Heading as="h2" my={6}>
             Page not found
