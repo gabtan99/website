@@ -78,7 +78,7 @@ const Portfolio = () => {
           </Block>
         </SimpleGrid>
 
-        <Block delay={0.3} mb={7} mt={10}>
+        <Block delay={0.3} mb={7} mt="7vh">
           <Text
             mb={2}
             fontSize="24"

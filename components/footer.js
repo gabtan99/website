@@ -4,7 +4,7 @@ import { useColorModeValue } from "@chakra-ui/color-mode";
 
 const Footer = () => {
   return (
-    <Block delay={0.7} my={7}>
+    <Block delay={0.7} mt={14} mb={7}>
       <Container maxW="container.lg">
         <Text fontSize={14} mt={12} align="center" color="textSecondary">
           &copy; {new Date().getFullYear()} Gabriel Tan. All Rights Reserved.

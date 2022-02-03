@@ -13,6 +13,12 @@ const styles = {
     body: {
       bg: mode("#ffffff", "#000000")(props),
     },
+    a: {
+      _hover: {
+        textDecoration: "none !important",
+        boxShadow: "none !important",
+      },
+    },
   }),
 };
 

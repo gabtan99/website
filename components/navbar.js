@@ -6,9 +6,9 @@ import {
   Flex,
   Spacer,
   Stack,
-  Header,
-} from "@chakra-ui/layout";
-import Link from "next/link";
+  Button,
+  Link,
+} from "@chakra-ui/react";
 import React from "react";
 import ToggleButton from "./toggle-button";
 
@@ -27,7 +27,7 @@ const Navbar = (props) => {
     >
       <Container p={2} maxW="container.xl">
         <Flex align="center">
-          <Link href="/">
+          <Link href="/" passHref>
             <Heading
               fontSize="24"
               px={2}
@@ -49,14 +49,19 @@ const Navbar = (props) => {
             direction="row"
             width="auto"
             alignItems="center"
-            spacing="30px"
+            spacing="20px"
           >
-            <Heading fontSize="18">
-              <Link href="/portfolio">Portfolio</Link>
-            </Heading>
-            <Heading fontSize="18">
-              <Link href="/resume.pdf">Resume</Link>
-            </Heading>
+            <Link mr={3} href="/portfolio" passHref>
+              <Button position="static" variant="ghost" color="textPrimary">
+                Portfolio
+              </Button>
+            </Link>
+
+            <Link mr={3} href="/resume.pdf" passHref>
+              <Button position="static" variant="ghost" color="textPrimary">
+                Resume
+              </Button>
+            </Link>
             {/* <ToggleButton /> */}
           </Stack>
         </Flex>

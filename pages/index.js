@@ -14,8 +14,11 @@ import Block from "../components/block";
 import Footer from "../components/footer";
 import { GithubIcon, LinkedInIcon } from "./../components/icons/socials";
 import { EmailIcon } from "@chakra-ui/icons";
+import useMediaQuery from "../components/useMediaQuery";
 
 export default function Home() {
+  const smallDevice = useMediaQuery(768);
+
   return (
     <div>
       <Head>
@@ -31,7 +34,7 @@ export default function Home() {
               color="accent"
               fontFamily="Manrope"
             >
-              Hi! I&apos;m
+              Hello! I&apos;m
             </Heading>
             <Heading fontSize="big" fontWeight={900}>
               Gabriel Tan
@@ -49,9 +52,11 @@ export default function Home() {
             </Heading>
 
             <Box mt={12}>
-              <Link mr={3} href="https://www.linkedin.com/in/gabtan99">
+              <Link mr={3} href="https://www.linkedin.com/in/gabtan99" passHref>
                 <Button
+                  size={smallDevice ? "md" : "sm"}
                   mb={3}
+                  variant="ghost"
                   leftIcon={
                     <LinkedInIcon
                       width={6}
@@ -65,9 +70,11 @@ export default function Home() {
                   LinkedIn
                 </Button>
               </Link>
-              <Link mr={3} href="https://github.com/gabtan99">
+              <Link mr={3} href="https://github.com/gabtan99" passHref>
                 <Button
+                  size={smallDevice ? "md" : "sm"}
                   mb={3}
+                  variant="ghost"
                   leftIcon={
                     <GithubIcon
                       width={6}
@@ -81,9 +88,11 @@ export default function Home() {
                   GitHub
                 </Button>
               </Link>
-              <Link mr={3} href="mailto: gabtan99@gmail.com">
+              <Link mr={3} href="mailto: gabtan99@gmail.com" passHref>
                 <Button
+                  size={smallDevice ? "md" : "sm"}
                   mb={3}
+                  variant="ghost"
                   leftIcon={
                     <EmailIcon
                       width={6}
@@ -99,7 +108,7 @@ export default function Home() {
               </Link>
             </Box>
           </Block>
-          <Block flex="1">
+          <Block flex="1" justify="center" align="center">
             <Image
               src="/media/curly.png"
               w={{ sm: "0px", md: "350px", lg: "400px" }}
@@ -113,9 +122,9 @@ export default function Home() {
           mt={{ base: "1vh", md: "8vh" }}
           direction={{ base: "column-reverse", md: "row" }}
         >
-          <Block delay={0.5} maxW={{ base: "100%", sm: "600px" }}>
+          <Block delay={0.5} maxW={{ base: "100%", sm: "550px" }}>
             <Text
-              mb={3}
+              mb={5}
               fontSize={18}
               fontFamily="Manrope"
               color="textPrimary"
@@ -169,7 +178,7 @@ export default function Home() {
           mt={{ base: "10vh", md: "14vh" }}
           align="center"
         >
-          <Heading fontSize={24} fontWeight={800} fontFamily="Manrope">
+          <Heading fontSize={24} mb={5} fontWeight={800} fontFamily="Manrope">
             Get in Touch
           </Heading>
           <Text maxW={320} fontSize={18}>
@@ -179,11 +188,30 @@ export default function Home() {
             </Box>{" "}
             role.
           </Text>
-          <Link href="/resume.pdf">
-            <Text fontWeight={600} color="accent" mt={7}>
-              View Resume →
-            </Text>
-          </Link>
+          <Flex justify="center" align="center" mt={7}>
+            <Link mx={5} href="mailto: gabtan99@gmail.com" passHref>
+              <Button
+                variant="ghost"
+                size={smallDevice ? "md" : "sm"}
+                leftIcon={
+                  <EmailIcon
+                    width={6}
+                    height={6}
+                    color={useColorModeValue("#000000", "#ffffff")}
+                  />
+                }
+                position="static"
+                color="textPrimary"
+              >
+                Email
+              </Button>
+            </Link>
+            <Link mx={5} href="/resume.pdf" passHref>
+              <Text fontWeight={600} color="accent">
+                View Resume →
+              </Text>
+            </Link>
+          </Flex>
         </Block>
       </Container>
       <Footer />

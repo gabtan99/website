@@ -6,7 +6,7 @@ import Block from "../block";
 
 const PortfolioContent = ({ title, children, image, stack, link }) => {
   return (
-    <Container maxW="container.lg" pt={14}>
+    <Container maxW="container.lg" mt={{ base: "5vh", md: "8vh" }}>
       <Block delay={0.1} mb={5}>
         <NextLink href="/portfolio" passHref>
           <Link>
@@ -33,7 +33,7 @@ const PortfolioContent = ({ title, children, image, stack, link }) => {
           className="port-item"
         />
       </Block>
-      <Block delay={0.3} mb={5}>
+      <Block delay={0.3} mt={7}>
         <Text
           fontSize="md"
           fontWeight={400}
@@ -44,7 +44,7 @@ const PortfolioContent = ({ title, children, image, stack, link }) => {
         </Text>
       </Block>
 
-      <Block delay={0.4} mb={10}>
+      <Block delay={0.4} mt={7}>
         <Box width="100%" display="flex" my={2}>
           <Text fontSize="14" minW="60px">
             Stack
