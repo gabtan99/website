@@ -15,7 +15,7 @@ const Mediacast = () => {
       <PortfolioContent
         title="Mediacast Digital Group"
         image={MediacastURL}
-        // link="https://www.tagalogtransformer.me"
+        link="https://mediacastdigital.com/"
         stack={[
           "Wordpress",
           "Frontity",
