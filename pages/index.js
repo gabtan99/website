@@ -172,7 +172,7 @@ export default function Home() {
             </Block>
           </Flex>
         </Flex>
-        <Block
+        {/* <Block
           delay={0.7}
           mb="10vh"
           mt={{ base: "10vh", md: "14vh" }}
@@ -212,7 +212,7 @@ export default function Home() {
               </Text>
             </Link>
           </Flex>
-        </Block>
+        </Block> */}
       </Container>
       <Footer />
     </div>
