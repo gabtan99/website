@@ -77,27 +77,6 @@ const Portfolio = () => {
             ></PortfolioItem>
           </Block>
         </SimpleGrid>
-
-        <Block delay={0.3} mb={7} mt="7vh">
-          <Text
-            mb={2}
-            fontSize="24"
-            color="textPrimary"
-            fontFamily="Manrope"
-            fontWeight={700}
-          >
-            Works in Progress
-          </Text>
-        </Block>
-        <SimpleGrid columns={[1, 1, 2]} spacingX={10}>
-          <Block delay={0.4} mb={1}>
-            <PortfolioItem
-              id="melscollection"
-              title="Mel's Collection"
-              thumb={MelsURL}
-            ></PortfolioItem>
-          </Block>
-        </SimpleGrid>
       </Container>
       <Footer />
     </div>
