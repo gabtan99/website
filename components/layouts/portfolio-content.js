@@ -27,7 +27,7 @@ const PortfolioContent = ({ title, children, image, stack, link }) => {
       <Block delay={0.2} mb={3}>
         <Image
           src={image}
-          alt={"test"}
+          alt={"img"}
           placeholder="blur"
           loading="lazy"
           className="port-item"
