@@ -48,7 +48,7 @@ export default function Home() {
               <Box fontWeight={600} color="white" as="span">
                 Software Developer{" "}
               </Box>
-              based in BC, Canada.
+              based in Vancouver, BC.
             </Heading>
 
             <Box mt={12}>
